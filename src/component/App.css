@@ -1,0 +1,93 @@
+/* Reset some default styles */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin:  0;
+  padding:  0;
+  border:  0;
+  font-size:  100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Set some base styles for the body and html tags */
+html, body {
+  height:  100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+}
+
+/* Global styles for the App component */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:  100vh;
+  text-align: center;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  color: rgb(2, 0, 0);
+  border: none;
+  padding:  10px  20px;
+  cursor: pointer;
+  transition: background-color  0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Forms */
+input[type="text"], input[type="password"], input[type="email"], textarea {
+  width:  100%;
+  padding:  12px  20px;
+  margin:  8px  0;
+  box-sizing: border-box;
+  border:  1px solid #ccc;
+  border-radius:  4px;
+}
+
+/* Utility classes */
+.container {
+  max-width:  1200px;
+  margin:  0 auto;
+  padding:  0  15px;
+}
+
+.margin-top {
+  margin-top:  20px;
+}
+
+.margin-bottom {
+  margin-bottom:  20px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width:  768px) {
+  /* Adjustments for smaller screens */
+}
